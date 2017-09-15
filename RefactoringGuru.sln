@@ -5,57 +5,57 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Patterns", "Patterns", "{83D28DA0-EAA0-4AF9-AA7A-05C62855140C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Singleton", "Singleton", "{BB613D7D-3CB3-460F-962C-089AE970B274}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Singleton", "Patterns\Singleton", "{BB613D7D-3CB3-460F-962C-089AE970B274}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonThreadSafeSingleton", "Singleton\NonThreadSafeSingleton\NonThreadSafeSingleton.csproj", "{A6F0C78F-5E1E-4295-8B16-5EED4ADE4E85}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonThreadSafeSingleton", "Patterns\Singleton\NonThreadSafeSingleton\NonThreadSafeSingleton.csproj", "{A6F0C78F-5E1E-4295-8B16-5EED4ADE4E85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadSafeSingleton", "Singleton\ThreadSafeSingleton\ThreadSafeSingleton.csproj", "{18677C68-9286-451A-86D6-F5754071E96F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadSafeSingleton", "Patterns\Singleton\ThreadSafeSingleton\ThreadSafeSingleton.csproj", "{18677C68-9286-451A-86D6-F5754071E96F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.csproj", "{2F3B61F1-5CBE-49FC-995F-AF06E1B472B0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Patterns\Adapter\Adapter.csproj", "{2F3B61F1-5CBE-49FC-995F-AF06E1B472B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{FA9108CC-FE55-46FD-99ED-8E50E22B12D7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Patterns\Builder\Builder.csproj", "{FA9108CC-FE55-46FD-99ED-8E50E22B12D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{DF2FC23F-BDA3-4C93-A530-5FE7AAB06481}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "Patterns\FactoryMethod\FactoryMethod.csproj", "{DF2FC23F-BDA3-4C93-A530-5FE7AAB06481}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{3FDFB5CB-8C98-4084-9997-41D95A82D2D4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "Patterns\AbstractFactory\AbstractFactory.csproj", "{3FDFB5CB-8C98-4084-9997-41D95A82D2D4}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prototype", "Prototype", "{58764C30-73CA-417A-92AE-3ADD9782E0AE}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prototype", "Patterns\Prototype", "{58764C30-73CA-417A-92AE-3ADD9782E0AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypeCaching", "Prototype\PrototypeCaching\PrototypeCaching.csproj", "{E6E82CDE-77ED-4705-8CFB-01F97DBCD0E1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypeCaching", "Patterns\Prototype\PrototypeCaching\PrototypeCaching.csproj", "{E6E82CDE-77ED-4705-8CFB-01F97DBCD0E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypeExample", "Prototype\PrototypeExample\PrototypeExample.csproj", "{50B54CC8-8BAF-4FF3-B357-9DA254BF5927}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypeExample", "Patterns\Prototype\PrototypeExample\PrototypeExample.csproj", "{50B54CC8-8BAF-4FF3-B357-9DA254BF5927}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Bridge\Bridge.csproj", "{1661D0E6-CB59-47FE-81EE-B8CE461F5E1C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Patterns\Bridge\Bridge.csproj", "{1661D0E6-CB59-47FE-81EE-B8CE461F5E1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility", "ChainOfResponsibility\ChainOfResponsibility.csproj", "{DA696659-3B53-49B5-8CFA-5345A4AB109B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility", "Patterns\ChainOfResponsibility\ChainOfResponsibility.csproj", "{DA696659-3B53-49B5-8CFA-5345A4AB109B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command", "Command\Command.csproj", "{29E89168-3A5A-405E-9691-34ECB99D9E27}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command", "Patterns\Command\Command.csproj", "{29E89168-3A5A-405E-9691-34ECB99D9E27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "Composite\Composite.csproj", "{38F02604-974F-4AFA-A501-5C55B4972184}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "Patterns\Composite\Composite.csproj", "{38F02604-974F-4AFA-A501-5C55B4972184}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{28AE1C0E-77D1-4A46-B218-995D631C01E0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Patterns\Decorator\Decorator.csproj", "{28AE1C0E-77D1-4A46-B218-995D631C01E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "Facade\Facade.csproj", "{3960D326-67B3-4424-8AB5-22CEEB9424F0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "Patterns\Facade\Facade.csproj", "{3960D326-67B3-4424-8AB5-22CEEB9424F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator", "Iterator\Iterator.csproj", "{84178301-B792-4259-9649-E60639A2CC0C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator", "Patterns\Iterator\Iterator.csproj", "{84178301-B792-4259-9649-E60639A2CC0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "Mediator\Mediator.csproj", "{EC78629A-92FD-4EBB-97C7-DA474473A7DE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "Patterns\Mediator\Mediator.csproj", "{EC78629A-92FD-4EBB-97C7-DA474473A7DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento", "Memento\Memento.csproj", "{99FC4598-19AE-4BEB-AB27-488A6518DE57}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento", "Patterns\Memento\Memento.csproj", "{99FC4598-19AE-4BEB-AB27-488A6518DE57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight", "Flyweight\Flyweight.csproj", "{16F90488-AADD-4CD4-BC4D-49F39D31E0D7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight", "Patterns\Flyweight\Flyweight.csproj", "{16F90488-AADD-4CD4-BC4D-49F39D31E0D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observer.csproj", "{CBDB8916-6D2A-4078-A6F9-5213EA1D6328}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Patterns\Observer\Observer.csproj", "{CBDB8916-6D2A-4078-A6F9-5213EA1D6328}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy", "Proxy\Proxy.csproj", "{8F65F2B1-5736-4711-8F3C-D7A9E77AE351}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy", "Patterns\Proxy\Proxy.csproj", "{8F65F2B1-5736-4711-8F3C-D7A9E77AE351}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "State\State.csproj", "{89E8D9E1-C730-4B05-93C3-D6B96165D4DB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "Patterns\State\State.csproj", "{89E8D9E1-C730-4B05-93C3-D6B96165D4DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{CF69CD1A-EF80-4E80-BC68-86B4DDFA8928}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Patterns\Strategy\Strategy.csproj", "{CF69CD1A-EF80-4E80-BC68-86B4DDFA8928}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "TemplateMethod\TemplateMethod.csproj", "{94F272B3-6566-466E-823A-0FA7D87435F0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "Patterns\TemplateMethod\TemplateMethod.csproj", "{94F272B3-6566-466E-823A-0FA7D87435F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visitor", "Visitor\Visitor.csproj", "{7976B02A-E41B-4D6C-90E0-DA6E08FBD2E3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visitor", "Patterns\Visitor\Visitor.csproj", "{7976B02A-E41B-4D6C-90E0-DA6E08FBD2E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
