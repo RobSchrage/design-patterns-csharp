@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FCD7129C-B686-4B85-96F1-0CCD4ABFDD9F}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE.txt = LICENSE.txt
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod.Structural", "FactoryMethod.Structural\FactoryMethod.Structural.csproj", "{3485CEC2-FF01-41F2-A6C2-6EA0B3BC7EE3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod.RealWorld", "FactoryMethod.RealWorld\FactoryMethod.RealWorld.csproj", "{6904E99A-E15A-491D-9EEE-0EE712CD8FFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3485CEC2-FF01-41F2-A6C2-6EA0B3BC7EE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3485CEC2-FF01-41F2-A6C2-6EA0B3BC7EE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3485CEC2-FF01-41F2-A6C2-6EA0B3BC7EE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3485CEC2-FF01-41F2-A6C2-6EA0B3BC7EE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6904E99A-E15A-491D-9EEE-0EE712CD8FFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6904E99A-E15A-491D-9EEE-0EE712CD8FFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6904E99A-E15A-491D-9EEE-0EE712CD8FFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6904E99A-E15A-491D-9EEE-0EE712CD8FFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {31A918A3-5DFF-4253-960C-9EC4515A657E}
+	EndGlobalSection
+EndGlobal

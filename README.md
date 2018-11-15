@@ -56,7 +56,7 @@ Here's a style guide which might help you to keep your changes consistent with o
 
 2. Try to hard wrap the code at 80th's character. It helps to list the code on the website without scrollbars.
 
-3. The actual examples should be represented by projects with the following naming convention: RefactoringGuru.DesignPatterns.{PatternName}.{ExampleName}.
+3. The actual examples should be represented by projects with the following naming convention: .{PatternName}.{ExampleName}.
 
 4. Aim to put all code within one file. We realize that it's not how it supposed to be done in production. But it helps people to better understand examples, since all code fits into one screen.
 
