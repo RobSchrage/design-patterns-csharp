@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace FactoryMethod.RealWorld
+namespace FactoryMethod.RealWorld.DTOs
 {
     class EventHeader
     {

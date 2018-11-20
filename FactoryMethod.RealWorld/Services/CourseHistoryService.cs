@@ -1,4 +1,6 @@
-﻿namespace FactoryMethod.RealWorld
+﻿using FactoryMethod.RealWorld.Products;
+
+namespace FactoryMethod.RealWorld.Services
 {
     class CourseHistoryService : HistoryService
     {

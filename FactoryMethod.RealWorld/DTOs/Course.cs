@@ -1,4 +1,4 @@
-﻿namespace FactoryMethod.RealWorld
+﻿namespace FactoryMethod.RealWorld.DTOs
 {
     class Course
     {

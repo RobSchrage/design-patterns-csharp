@@ -1,4 +1,7 @@
-﻿namespace FactoryMethod.RealWorld
+﻿using FactoryMethod.RealWorld.DTOs;
+using FactoryMethod.RealWorld.Products;
+
+namespace FactoryMethod.RealWorld.Services
 {
     abstract class HistoryService
     {

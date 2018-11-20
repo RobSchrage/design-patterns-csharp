@@ -1,4 +1,6 @@
-﻿namespace FactoryMethod.RealWorld
+﻿using FactoryMethod.RealWorld.DTOs;
+
+namespace FactoryMethod.RealWorld.Products
 {
     class CourseHistoryEvent : IHistoryEvent
     {

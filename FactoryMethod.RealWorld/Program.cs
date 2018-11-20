@@ -1,4 +1,6 @@
 ﻿using System;
+using FactoryMethod.RealWorld.DTOs;
+using FactoryMethod.RealWorld.Services;
 
 namespace FactoryMethod.RealWorld
 {
@@ -38,7 +40,7 @@ namespace FactoryMethod.RealWorld
 
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             new Client().Main();
         }

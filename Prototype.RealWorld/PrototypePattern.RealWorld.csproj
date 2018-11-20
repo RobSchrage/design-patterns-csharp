@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C76970BF-61A3-42F6-93A6-EFB03CC82697}</ProjectGuid>
+    <ProjectGuid>{69BEAFBF-E477-43BE-B2A2-1C20CE0AD2CE}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>PrototypePattern</RootNamespace>
-    <AssemblyName>PrototypePattern</AssemblyName>
+    <RootNamespace>PrototypePattern.RealWorld</RootNamespace>
+    <AssemblyName>PrototypePattern.RealWorld</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,10 +43,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <Folder Include="Properties\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
