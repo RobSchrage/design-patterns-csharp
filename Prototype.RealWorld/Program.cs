@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Globalization;
-using System.Security.Cryptography.X509Certificates;
+﻿using System.Collections.Generic;
 
 namespace PrototypePattern.RealWorld
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Client client = new Client();
             client.ClientCode();
@@ -32,6 +29,7 @@ namespace PrototypePattern.RealWorld
 
 
             shapes.Add(circle);
+            shapes.Add(circleClone);
         }
 
     }
@@ -48,9 +46,9 @@ namespace PrototypePattern.RealWorld
         {
             if (prototypeShape != null)
             {
-                this.X = prototypeShape.X;
-                this.Y = prototypeShape.Y;
-                this.Color = prototypeShape.Color;
+                X = prototypeShape.X;
+                Y = prototypeShape.Y;
+                Color = prototypeShape.Color;
             }
         }
 
@@ -66,8 +64,8 @@ namespace PrototypePattern.RealWorld
         {
             if (source != null)
             {
-                this.Width = source.Width;
-                this.Height = source.Height;
+                Width = source.Width;
+                Height = source.Height;
             }
         }
 
@@ -88,7 +86,7 @@ namespace PrototypePattern.RealWorld
         {
             if (source != null)
             {
-                this.Radius = source.Radius;
+                Radius = source.Radius;
             }
         }
 
